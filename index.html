@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice Recognition To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <div id="main">
+    <div id="github">
+      <a href="https://github.com/Shaktisinh0044" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+    </div>
+    <h1>Voice To-Do List</h1>
+    <label for="taskinput"> Allow Mic Permission🗣️</label>
+    <div id="task-box">
+      <input type="text" id="taskinput" placeholder="Add a New Task..." />
+      <button onclick="addTask()">Add Task</button>
+    </div>
+    <h2>My Tasks</h2>
+    <ul id="taskList">
+      <!-- <li><span>New Task</span><button>Delete</button></li>
+      <li><span>New Task</span><button>Delete</button></li> -->
+    </ul>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+h1{
+  position: absolute;
+  left: 50%;
+  top: 7%;
+  transform: translate(-50%,-50%);
+}
+#task-box{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%,-50%);
+  padding-bottom: 30px;
+
+}
+#taskinput{
+  width: 18vw;
+  height: 5vh;
+  font-size: 1rem;
+  padding: 0px 0.5vw;
+}
+label{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%,-50%);
+}
+button{
+  padding: 10px 20px;
+  height: 5vh;
+  color: #fff;
+  background: rgb(13, 165, 13);
+  border: none;
+  font-size: 1vw;
+  font-weight: bolder;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+#taskList{
+  list-style: none;
+  padding: 0;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  gap:3vh;
+  
+}
+ul li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+  box-shadow: rgba(149,157,165,0.2)0px 5px 10px;
+}
+li span{
+  padding-left:1vw ;
+}
+.deleteBtn{
+  background-color: red;
+}
+#github{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 7%;
+  left: 3%;
+  font-size: 4rem;
+}
